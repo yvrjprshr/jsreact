@@ -26,5 +26,21 @@ const addValue = () => {
 ```
 Use Link Tag from react-router-dom instead of anchor tag so that it does not refresh page
 
+--- 
+
+Redux
+
+store - single source of truth [there is only one across whole project]
+
+reducers - to change anything in store
+
+useSelector - select value from store 
+useDispatch - send value to store
+
+reducers is an object having functionalities, every functions inside reducers have 2 things, state and action
+
+state => current state[data]
+action => to recieve data to perform customized action
 
 
+---
